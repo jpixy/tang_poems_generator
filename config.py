@@ -1,0 +1,15 @@
+# config.py
+
+# 数据文件路径
+DATA_FILE = "data/poet.song.197000.json"
+
+# 模型参数
+EMBEDDING_DIM = 256
+HIDDEN_DIM = 512
+SEQ_LENGTH = 50
+BATCH_SIZE = 32
+NUM_EPOCHS = 50
+LEARNING_RATE = 0.001
+
+# 生成参数
+GENERATE_LENGTH = 100
